@@ -1,0 +1,44 @@
+*{ margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+ column-span: collapse;
+ animation: niebla 5s ease-in-out 3s infinite;
+}
+
+.cartel{
+    color: white;
+    background-color: black;
+}
+.enlace1{
+    text-align: center;
+}
+.tres{
+    column-span: collapse;
+}
+.p, .a{ text-align: center;}
+.pie{
+    color: white;
+    background-color: black;
+}
+
+.p2{color: white;
+    background-color: black;
+}
+
+.u{
+    color: white;
+}
+/*--------EFECTOS--------*/
+@keyframes niebla{
+    0%{  transition: 5s ease-in-out;
+    opacity: 0.1;
+    transform: scale(0.2,0.1); /* con escala-*/
+  }
+  100%{  transition: 5s ease-in-out;
+    opacity: 1;
+   
+  }
+ 
+}
